@@ -1,0 +1,22 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "Movie API with GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node --experimental-modules index.js"
+  },
+  "author": "shindonga",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.4",
+    "esm": "^3.2.25",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^3.0.0",
+    "upgrade": "^1.1.0"
+  }
+}
